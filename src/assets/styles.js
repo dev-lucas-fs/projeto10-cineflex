@@ -52,3 +52,9 @@ export const Global = createGlobalStyle`
         box-sizing: "border-box"
     }
 `;
+
+export const theme = {
+  primary: "#E8833A",
+  secondary: "#C3CFD9",
+  text: "#293845",
+};

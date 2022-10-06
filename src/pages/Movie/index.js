@@ -2,5 +2,5 @@ import React from "react";
 import { Container } from "./styles";
 
 export default function Movie() {
-  return <Container></Container>;
+  return <Container>Movie Section</Container>;
 }
