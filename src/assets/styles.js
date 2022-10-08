@@ -49,7 +49,7 @@ export const Global = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
     }
     * {
-        box-sizing: "border-box"
+        box-sizing: border-box;
     }
 `;
 

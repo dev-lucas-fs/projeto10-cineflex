@@ -2,9 +2,21 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  padding: 30px 25px;
+  height: calc(100vh - 64px);
   box-sizing: border-box;
-  overflow-y: auto;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  & > *:nth-child(1) {
+    grid-row: 1/2;
+    overflow-y: auto;
+    padding: 30px 20px;
+  }
+
+  & > *:nth-child(2) {
+    grid-row: 2/3;
+  }
 `;
 
 export const List = styled.ul`

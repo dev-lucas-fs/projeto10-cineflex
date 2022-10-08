@@ -6,6 +6,7 @@ import MainLayout from "../../layouts/MainLayout";
 import Home from "../../pages/Home";
 import Movie from "../../pages/Movie";
 import Seats from "../../pages/Seats";
+import Success from "../../pages/Success";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/movie/:id" element={<Movie />} />
             <Route path="/seats/:id" element={<Seats />} />
+            <Route path="/success" element={<Success />} />
           </Routes>
         </MainLayout>
       </BrowserRouter>
